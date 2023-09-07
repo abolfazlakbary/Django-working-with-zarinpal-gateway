@@ -83,4 +83,4 @@ local_settings.py
 #etc
 .env
 db.sqlite3
-
+images/

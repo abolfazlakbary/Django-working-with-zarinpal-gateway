@@ -32,6 +32,8 @@ INSTALLED_APPS = [
 
     #local apps
     'market',
+    'api',
+    'zarinpal',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +128,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MERCHANT  =  "00000000-0000-0000-0000-000000000000"
 SANDBOX  =  True
+
+AUTH_USER_MODEL = "market.NewUser"
